@@ -1,0 +1,11 @@
+.header {
+  margin: auto;
+  max-height: 50px;
+  max-width: 460px;
+  text-align: center;
+  h1 {
+    font-size: 68px;
+    letter-spacing: 0.06em;
+    color: var(--font-header-color);
+  }
+}

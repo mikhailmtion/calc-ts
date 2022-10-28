@@ -1,0 +1,15 @@
+.footer {
+  margin: auto;
+  max-height: 50px;
+  max-width: 460px;
+  text-align: center;
+  margin-top: 20px;
+
+  img {
+    width: 22px;
+    opacity: 0.7;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

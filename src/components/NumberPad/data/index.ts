@@ -1,0 +1,18 @@
+export const buttonArray = [
+  { element: "9" },
+  { element: "8" },
+  { element: "7" },
+  { element: "Mult" },
+  { element: "6" },
+  { element: "5" },
+  { element: "4" },
+  { element: "Div" },
+  { element: "3" },
+  { element: "2" },
+  { element: "1" },
+  { element: "Sub" },
+  { element: "0" },
+  { element: "Dot" },
+  { element: "Equals" },
+  { element: "Sum" },
+];

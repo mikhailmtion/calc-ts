@@ -1,0 +1,50 @@
+@import "./styles/normalize.scss";
+
+body {
+  margin: 0;
+  height: 100%;
+  font-style: normal;
+  background-color: var(--bg-color);
+  font-family: "VT323", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body[data-theme="dark"] {
+  --bg-color: rgba(17, 21, 20, 1);
+  --font-header-color: rgba(116, 255, 253, 1);
+  --font-numbers-color: rgba(116, 255, 253, 1);
+}
+body[data-theme="light"] {
+  --bg-color: rgba(248, 248, 248, 1);
+  --font-header-color: rgba(17, 21, 20, 1);
+  --font-numbers-color: rgba(116, 255, 253, 1);
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#root {
+  height: 100%;
+}
+
+img {
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: transparent;
+  color: inherit;
+}
+

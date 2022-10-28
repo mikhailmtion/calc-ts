@@ -1,0 +1,17 @@
+.pad {
+  &__controls {
+    position: absolute;
+    top: 221px;
+    left: 51px;
+  }
+
+  &__numbers {
+    position: absolute;
+    bottom: 30px;
+    left: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 18px;
+    width: 363px;
+  }
+}
